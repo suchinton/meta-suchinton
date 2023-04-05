@@ -53,7 +53,7 @@ $ source master/meta-agl/scripts/aglsetup.sh -m qemux86-64 agl-demo agl-devel
 ### clone this repo
 
 ```
-git clone 
+git clone https://github.com/suchinton/meta-suchinton.git
 ```
 
 ### Add meta-suchinton to build/conf/local.conf
