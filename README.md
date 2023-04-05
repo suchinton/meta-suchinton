@@ -71,11 +71,13 @@ bitbake-layers show-layers
 ### Try to bitbake meta-suchinton
 
 ```
-bitbake meta-suchinton
+source agl-init-build-env
+bitbake myqtapp
 ```
 
 ### Build Agl-demo image
 ```
+cd $AGL_TOP
 source build/agl-init-build-env
 bitbake agl-demo-platform
 ```
