@@ -50,7 +50,7 @@ $ cd $AGL_TOP
 $ source master/meta-agl/scripts/aglsetup.sh -m qemux86-64 agl-demo agl-devel
 ```
 
-### clone this repo
+### Clone this repo
 
 ```
 git clone https://github.com/suchinton/meta-suchinton.git
@@ -62,7 +62,7 @@ git clone https://github.com/suchinton/meta-suchinton.git
 bitbake-layers add-layer meta-suchinton
 ```
 
-### To check if meta-suchinton was added as a custom yocto-layers
+### To check if meta-suchinton was added as a custom layer
 
 ```
 bitbake-layers show-layers
