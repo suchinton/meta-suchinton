@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=AGL_Quiz_Application
+Exec=AGL_Quiz_Application
+Terminal=flase
+StartupNotify=true;
