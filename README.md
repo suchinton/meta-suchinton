@@ -2,7 +2,7 @@
 
 This is a custom yocto-layer to embed the [***AGL_Quiz_Application***](https://github.com/suchinton/AGL_Quiz_Application) into AGL's demo image
 
-Link to the sucessfully built [***agl-demo-platform***](https://drive.google.com/file/d/1Bk1bsHDEg9JTm5gXALjq7kz4rtOfkrzM/view?usp=sharing) image
+Link to the sucessfully built [***agl-demo-platform***](https://drive.google.com/file/d/16hvlSnNR9a3fbVfjhi3sTIhlHXvJnBk2/view?usp=sharing) image
 
 To boot the image follow the [***guide***](https://docs.automotivelinux.org/en/master/#01_Getting_Started/01_Quickstart/01_Using_Ready_Made_Images/)
 
@@ -68,14 +68,16 @@ bitbake-layers add-layer meta-suchinton
 bitbake-layers show-layers
 ```
 
-### Try to bitbake meta-suchinton
+### Try to bitbake myqtapp
 
 ```
-bitbake meta-suchinton
+source agl-init-build-env
+bitbake myqtapp
 ```
 
 ### Build Agl-demo image
 ```
+cd $AGL_TOP
 source build/agl-init-build-env
 bitbake agl-demo-platform
 ```
