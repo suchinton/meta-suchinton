@@ -21,4 +21,6 @@ do_install:append() {
 FILES_${PN} += "${bindir}/AGL_Quiz_Application \
 	       ${datadir}/applications/AGL_Quiz_Application.desktop"
 
-inherit qmake5
+inherit qmake5 
+
+AGL_APP_NAME = "AGL_Quiz_Application"

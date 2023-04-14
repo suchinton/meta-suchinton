@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Name=AGL_Quiz_Application
+Comment=AGL_Quiz_Application
+GenericName=AGL_Quiz_Application
+Exec=AGL_Quiz_Application
+Terminal=flase
+Type=Application
+Categories=System;
+StartupNotify=true
