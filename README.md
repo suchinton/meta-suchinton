@@ -2,15 +2,14 @@
 
 This is a custom yocto-layer to embed the [***AGL_Quiz_Application***](https://github.com/suchinton/AGL_Quiz_Application) into AGL's demo image
 
-Link to the sucessfully built [***agl-demo-platform***](https://drive.google.com/file/d/16hvlSnNR9a3fbVfjhi3sTIhlHXvJnBk2/view?usp=sharing) image
+Link to the sucessfully built [***agl-demo-platform***](https://drive.google.com/file/d/1MsM9rQoEAkOTWKIS-bl5Y0T6u0TuYQdN/view?usp=sharing) image
 
 To boot the image follow the [***guide***](https://docs.automotivelinux.org/en/master/#01_Getting_Started/01_Quickstart/01_Using_Ready_Made_Images/)
 
-To run the application, Open the Wayland terminal and run
+## ScreenShots
 
-```
-/bin/AGL_Quiz_Application
-```
+<img src="https://user-images.githubusercontent.com/75079303/232209064-d283739f-f519-48c8-b720-a5ae50b19315.png" width=330> <img src="https://user-images.githubusercontent.com/75079303/232209074-2fe7ac9d-3f10-4262-bff2-b10ebefbf912.png" width=330> <img src="https://user-images.githubusercontent.com/75079303/232209076-ba75cb91-8fd3-4d1d-86bc-ed841a175967.png" width=330>
+
 ---
 
 ## To replicate the build, follow these steps,
@@ -63,20 +62,20 @@ cd $AGL_TOP/build
 bitbake-layers add-layer ../meta-suchinton
 ```
 
-### To check if meta-suchinton was added as a custom layer
+### To check if `meta-suchinton` was added as a custom layer
 
 ```
 bitbake-layers show-layers
 ```
 
-### Try to bitbake myqtapp
+### Try to bitbake `myqtapp`
 
 ```
 source agl-init-build-env
 bitbake myqtapp
 ```
 
-### To add desktop entry edit the file
+### To add desktop entry edit the `packagegroup-agl-demo-platform.bb` file 
 
 ```
 nano $AGL_TOP/master/meta-agl-demo/recipes-platform/packagegroups/packagegroup-agl-demo-platform.bb
