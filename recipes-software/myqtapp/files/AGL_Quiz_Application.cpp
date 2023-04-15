@@ -2,9 +2,6 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QVBoxLayout>
-//#include <grpcpp/grpcpp.h>
-//#include <unistd.h>
-//#include "inc/broker.pb.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);

@@ -2,7 +2,7 @@ SUMMARY = "My Qt5 App recipe"
 DESCRIPTION = "My Qt5 App recipe"
 LICENSE = "CLOSED"
 
-DEPENDS += " qtbase wayland "
+DEPENDS += " qtbase wayland"
 
 SRC_URI = "file://AGL_Quiz_Application.cpp \
 	  file://AGL_Quiz_Application.pro \
@@ -16,13 +16,12 @@ do_install:append() {
 	install -m 0775 AGL_Quiz_Application ${D}${bindir}
 	install -d ${D}${datadir}/applications
 	install -m 0644 ${WORKDIR}/AGL_Quiz_Application.desktop ${D}${datadir}/applications
-	install -d ${D}${datadir}/icons/hicolor/scalable
-	install -m ${WORKDIR}/AGL_Quiz_Application.svg ${D}${datadir}/icons/hicolor/scalable
 }
 
 FILES_${PN} += "${bindir}/AGL_Quiz_Application \
-	       ${datadir}/applications/AGL_Quiz_Application.desktop"
+	        ${datadir}/applications/AGL_Quiz_Application.desktop"
 
-inherit qmake5 
+inherit qmake5 agl-app
 
 AGL_APP_NAME = "AGL_Quiz_Application"
+

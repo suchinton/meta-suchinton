@@ -12,8 +12,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += AGL_Quiz_Application.cpp
 
-target.path = /usr/bin
-target.files += $${OUT_PWD}/$${TARGET}
-target.CONFIG = no_check_exist executable
+#target.path = /usr/bin
+#target.files += $${OUT_PWD}/$${TARGET}
+#target.CONFIG = no_check_exist executable
 
-INSTALLS += target
+#INSTALLS += target

@@ -59,7 +59,8 @@ git clone https://github.com/suchinton/meta-suchinton.git
 ### Add meta-suchinton to build/conf/local.conf
 
 ```
-bitbake-layers add-layer meta-suchinton
+cd $AGL_TOP/build
+bitbake-layers add-layer ../meta-suchinton
 ```
 
 ### To check if meta-suchinton was added as a custom layer
@@ -74,6 +75,30 @@ bitbake-layers show-layers
 source agl-init-build-env
 bitbake myqtapp
 ```
+
+### To add desktop entry edit the file
+
+```
+nano $AGL_TOP/master/meta-agl-demo/recipes-platform/packagegroups/packagegroup-agl-demo-platform.bb
+```
+
+add the myqtapp entry to AGL_APPS to create desktop entry for AGL_Quiz_Application as such
+
+```
+AGL_APPS = " \
+    dashboard \
+    hvac \
+    ondemandnavi \
+    settings \
+    mediaplayer \
+    messaging \
+    phone \
+    radio \
+    window-management-client-grpc \
+    myqtapp \
+    "
+```
+
 
 ### Build Agl-demo image
 ```
