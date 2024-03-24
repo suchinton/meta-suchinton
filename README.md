@@ -6,6 +6,11 @@ To boot the image follow the [***guide***](https://docs.automotivelinux.org/en/m
 
 ## ScreenShots
 
+<p align="center">
+ <img src="https://github.com/suchinton/meta-suchinton/assets/75079303/50e6fdd1-192e-4f5a-9f07-a685b0cb4e3d" width="300" alt="Screenshot 1">
+ <img src="https://github.com/suchinton/meta-suchinton/assets/75079303/2222b4f9-feb0-4b15-b464-a145235bcae1" width="300" alt="Screenshot 2">
+ <img src="https://github.com/suchinton/meta-suchinton/assets/75079303/e0d3ba0c-9791-4da9-b292-aa07b02f1f12" width="300" alt="Screenshot 3">
+</p>
 
 ---
 
@@ -113,3 +118,7 @@ $ exit
 $ suchintonapp
 
 ```
+
+### Demo
+
+[Screencast from 2024-03-24 23-27-14.webm](https://github.com/suchinton/meta-suchinton/assets/75079303/76549627-31bb-4c9c-935b-e7d6139d5efc)
