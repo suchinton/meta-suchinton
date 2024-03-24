@@ -1,0 +1,4 @@
+#/bin/sh
+
+cd /usr/libexec/suchintonApp
+/usr/bin/python3.10 -u suchintonApp.py
