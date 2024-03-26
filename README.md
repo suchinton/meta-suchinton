@@ -14,6 +14,10 @@ To boot the image follow the [***guide***](https://docs.automotivelinux.org/en/m
 
 ---
 
+### Demo
+
+[Screencast from 2024-03-24 23-27-14.webm](https://github.com/suchinton/meta-suchinton/assets/75079303/76549627-31bb-4c9c-935b-e7d6139d5efc)
+
 ## To replicate the build, follow these steps,
 
 ### Define Your Top-Level Directory
@@ -118,7 +122,3 @@ $ exit
 $ suchintonapp
 
 ```
-
-### Demo
-
-[Screencast from 2024-03-24 23-27-14.webm](https://github.com/suchinton/meta-suchinton/assets/75079303/76549627-31bb-4c9c-935b-e7d6139d5efc)
